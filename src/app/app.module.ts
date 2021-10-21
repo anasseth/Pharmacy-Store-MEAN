@@ -12,12 +12,14 @@ import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatGridListModule } from '@angular/material/grid-list';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { BlogComponent } from './blog/blog.component';
 import { ShopComponent } from './shop/shop.component';
 import { FaqsComponent } from './faqs/faqs.component';
+
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -42,7 +44,7 @@ import { FaqsComponent } from './faqs/faqs.component';
     FlexLayoutModule,
     BrowserAnimationsModule,
     MatGridListModule,
-
+    CarouselModule
     // RouterModule.forRoot([
     //   { path: 'Dashboard', component: DashboardComponent },
     // ])
